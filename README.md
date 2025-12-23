@@ -50,7 +50,7 @@
 
 # 📬 Connect with Me
 [![Twitter](https://img.shields.io/badge/@yourhandle-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/yourhandle)
-[![LinkedIn](https://img.shields.io/badge/YourName-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourname)
+[![LinkedIn](https://img.shields.io/badge/YourName-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/herald-michain-samuel-theo-ginting-9b70762a3/))
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white)](https://yourname.dev)
 
 ---
