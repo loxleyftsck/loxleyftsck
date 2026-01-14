@@ -1,7 +1,6 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,30&height=280&section=header&text=Herald%20Ginting&fontSize=55&fontColor=fff&desc=AI%20Engineer%20%7C%20Web3%20Developer%20%7C%20System%20Designer&descFontSize=20&fontAlign=40&descAlign=80" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,30&height=280&section=header&text=Herald%20Ginting&fontSize=50&fontColor=fff&desc=AI%20Engineer%20%7C%20Web3%20Developer%20%7C%20System%20Designer&descFontSize=18&fontAlign=25&descAlign=78" width="100%"/>
 </div>
-
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=256EFF&center=true&vCenter=true&width=650&lines=AI+Engineer+%26+Web3+Developer;Reinforcement+Learning+%7C+RAG+Systems+%7C+Smart+Contracts;Designing+intelligent+and+decentralized+systems" alt="Typing SVG" />
