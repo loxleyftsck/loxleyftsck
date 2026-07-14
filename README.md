@@ -16,7 +16,8 @@
 
 ## 👨‍💻 **User Profile: `Herald Ginting, S.Kom`**
 
-<div align="center">
+<!-- Placeholder Animasi 3D (Bisa diganti dengan export Spline.design milikmu nanti) -->
+<img align="right" src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="160" alt="3D Web3 AI Element" />
 
 > *"Coding my way to a decentralized & intelligent future."*
 
@@ -27,7 +28,7 @@ Bridging the gap between intelligent agents and decentralized infrastructure wit
 | :---: | :---: | :---: |
 | 🎓 S.Kom Graduate | 🤖 AI (RL, RAG, Agents) <br> 🔗 Web3 (DeFi, ZK-Rollups) | 📈 Swing Trading <br> ☕ System Design |
 
-</div>
+<br clear="all">
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
@@ -39,23 +40,23 @@ Bridging the gap between intelligent agents and decentralized infrastructure wit
 
 **🧠 Artificial Intelligence & Data**
 <br>
-<img src="https://skillicons.dev/icons?i=py,pytorch,scikit,tensorflow&theme=dark" />
+<img src="https://skillicons.dev/icons?i=py,pytorch,scikit,tensorflow&theme=dark" alt="AI Stack" />
 <br>
 *Reinforcement Learning • RAG Architectures • Vector DBs • LLM Serving*
 
-<br>
+<br><br>
 
 **🔗 Web3 & Blockchain**
 <br>
-<img src="https://skillicons.dev/icons?i=solidity,js,ts,react&theme=dark" />
+<img src="https://skillicons.dev/icons?i=solidity,js,ts,react&theme=dark" alt="Web3 Stack" />
 <br>
 *DeFi Primitives • Staking Logic • Smart Contract Security*
 
-<br>
+<br><br>
 
 **⚙️ Core Engineering**
 <br>
-<img src="https://skillicons.dev/icons?i=java,docker,git,linux&theme=dark" />
+<img src="https://skillicons.dev/icons?i=java,docker,git,linux&theme=dark" alt="Core Stack" />
 <br>
 *System Design • Backend Development • CI/CD*
 
@@ -96,10 +97,11 @@ Bridging the gap between intelligent agents and decentralized infrastructure wit
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 </div>
 
-## 📈 **System Activity**
+## 📈 **System Activity & Contributions**
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loxleyftsck&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" width="100%" alt="Activity graph" />
+  <!-- 3D Isometric Contribution Graph (Dihasilkan otomatis oleh GitHub Actions) -->
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution Graph" />
   
   <br><br>
 
