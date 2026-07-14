@@ -16,7 +16,7 @@
 
 ## 👨‍💻 **User Profile: `Herald Ginting, S.Kom`**
 
-<!-- Placeholder Animasi 3D (Bisa diganti dengan export Spline.design milikmu nanti) -->
+<!-- Animasi 3D Web3/AI -->
 <img align="right" src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="160" alt="3D Web3 AI Element" />
 
 > *"Coding my way to a decentralized & intelligent future."*
@@ -100,7 +100,7 @@ Bridging the gap between intelligent agents and decentralized infrastructure wit
 ## 📈 **System Activity & Contributions**
 
 <div align="center">
-  <!-- 3D Isometric Contribution Graph (Dihasilkan otomatis oleh GitHub Actions) -->
+  <!-- 3D Isometric Contribution Graph (Wajib generate via GitHub Actions) -->
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution Graph" />
   
   <br><br>
@@ -108,7 +108,8 @@ Bridging the gap between intelligent agents and decentralized infrastructure wit
   <a href="https://github.com/loxleyftsck">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=loxleyftsck&theme=radical&hide_border=true&background=0D1117" height="150" alt="GitHub Streak" />
   </a>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loxleyftsck&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="Top languages" />
+  <!-- Top Languages menggunakan fallback server yang lebih stabil -->
+  <img src="https://github-readme-stats-taupe-two.vercel.app/api/top-langs/?username=loxleyftsck&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="150" alt="Top languages" />
 </div>
 
 <div align="center">
