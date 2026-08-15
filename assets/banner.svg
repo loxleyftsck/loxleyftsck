@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Herald Ginting, S.Kom - AI Engineer">
+  <title>Herald Ginting, S.Kom — AI Engineer</title>
+
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0D1117"/>
@@ -17,40 +19,75 @@
       <stop offset="0%" stop-color="#256EFF"/>
       <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
     </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="220"/></clipPath>
   </defs>
+
+  <style>
+    /* --- gelombang: hanyut pelan, loop mulus (periode pola = 600px) --- */
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    .w1 { animation: drift 18s linear infinite; }
+    .w2 { animation: drift 26s linear infinite; }
+
+    /* --- node jaringan: denyut lembut --- */
+    @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+    .n1 { animation: pulse 3.2s ease-in-out infinite; }
+    .n2 { animation: pulse 3.2s ease-in-out infinite .8s; }
+    .n3 { animation: pulse 3.2s ease-in-out infinite 1.6s; }
+    .n4 { animation: pulse 3.2s ease-in-out infinite 2.4s; }
+    @keyframes linkfade { 0%,100% { stroke-opacity: .18; } 50% { stroke-opacity: .5; } }
+    .links { animation: linkfade 3.2s ease-in-out infinite; }
+
+    /* --- teks: fade-in SEKALI saat load, lalu diam --- */
+    @keyframes riseIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    /* fill-mode 'backwards' (bukan opacity:0 di base) supaya kalau renderer
+       tidak menjalankan animasi, teks tetap tampil normal — bukan hilang. */
+    .t1 { animation: riseIn .7s ease-out .1s backwards; }
+    .t2 { animation: riseIn .7s ease-out .3s backwards; }
+    .t3 { animation: riseIn .7s ease-out .45s backwards; }
+    @keyframes growRule { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .rule { transform-origin: 62px 92px; animation: growRule .8s ease-out .5s backwards; }
+
+    /* --- hormati pengaturan aksesibilitas pengguna --- */
+    @media (prefers-reduced-motion: reduce) {
+      .w1, .w2, .n1, .n2, .n3, .n4, .links, .rule { animation: none; }
+      .t1, .t2, .t3 { animation: none; }
+    }
+  </style>
 
   <rect width="1200" height="220" fill="url(#bg)"/>
 
-  <!-- subtle grid -->
+  <!-- grid halus -->
   <g stroke="#4d7fff" stroke-opacity="0.07" stroke-width="1">
     <path d="M0 44h1200M0 88h1200M0 132h1200M0 176h1200"/>
     <path d="M100 0v220M250 0v220M400 0v220M550 0v220M700 0v220M850 0v220M1000 0v220M1150 0v220"/>
   </g>
 
-  <!-- waves (dijaga di bawah baseline teks) -->
-  <path d="M0 186 C 150 168, 300 206, 480 188 S 800 168, 980 189 S 1120 200, 1200 185 L1200 220 L0 220 Z" fill="url(#wave1)"/>
-  <path d="M0 200 C 180 186, 340 214, 520 201 S 860 187, 1040 203 S 1140 210, 1200 199 L1200 220 L0 220 Z" fill="url(#wave2)"/>
+  <!-- gelombang (pola periodik 600px, digambar 2400px lalu digeser 600px) -->
+  <g clip-path="url(#frame)">
+    <path class="w1" fill="url(#wave1)"
+      d="M0 186 Q 150 168 300 186 T 600 186 T 900 186 T 1200 186 T 1500 186 T 1800 186 T 2100 186 T 2400 186 L2400 220 L0 220 Z"/>
+    <path class="w2" fill="url(#wave2)"
+      d="M0 201 Q 150 189 300 201 T 600 201 T 900 201 T 1200 201 T 1500 201 T 1800 201 T 2100 201 T 2400 201 L2400 220 L0 220 Z"/>
+  </g>
 
-  <!-- text -->
-  <text x="60" y="76" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">
+  <!-- teks -->
+  <text class="t1" x="60" y="76" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">
     Herald Ginting, S.Kom
   </text>
-  <rect x="62" y="92" width="150" height="3" rx="1.5" fill="url(#rule)"/>
-  <text x="60" y="126" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#8fb4ff">
+  <rect class="rule" x="62" y="92" width="150" height="3" rx="1.5" fill="url(#rule)"/>
+  <text class="t2" x="60" y="126" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#8fb4ff">
     AI Engineer
   </text>
-  <text x="60" y="154" font-family="'Consolas', 'Fira Code', monospace" font-size="15" fill="#6f8fcf">
+  <text class="t3" x="60" y="154" font-family="'Consolas', 'Fira Code', monospace" font-size="15" fill="#6f8fcf">
     RAG Systems · Reinforcement Learning · Local-first LLM Serving
   </text>
 
-  <!-- accent nodes -->
-  <g fill="#256EFF">
-    <circle cx="1080" cy="62" r="5"/>
-    <circle cx="1130" cy="92" r="4" fill="#00d4ff"/>
-    <circle cx="1040" cy="104" r="3.5" fill="#8fb4ff"/>
-    <circle cx="1108" cy="42" r="3" fill="#8fb4ff"/>
-  </g>
-  <g stroke="#4d7fff" stroke-opacity="0.4" stroke-width="1.2" fill="none">
+  <!-- node jaringan -->
+  <g class="links" stroke="#4d7fff" stroke-width="1.2" fill="none">
     <path d="M1080 62 L1130 92 M1080 62 L1040 104 M1080 62 L1108 42 M1130 92 L1040 104"/>
   </g>
+  <circle class="n1" cx="1080" cy="62"  r="5"   fill="#256EFF"/>
+  <circle class="n2" cx="1130" cy="92"  r="4"   fill="#00d4ff"/>
+  <circle class="n3" cx="1040" cy="104" r="3.5" fill="#8fb4ff"/>
+  <circle class="n4" cx="1108" cy="42"  r="3"   fill="#8fb4ff"/>
 </svg>
