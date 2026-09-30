@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Herald Ginting, S.Kom — AI Engineer" />
+  <img src="./assets/ai-engineer-banner-animated.gif" width="100%" alt="Herald Michain Samuel Theo Ginting — AI Engineer" />
 </div>
 
 <br>
@@ -112,7 +112,7 @@ Evaluated against Epidemic, PRoPHET, and Spray-and-Wait on delivery probability,
 EXTERNAL DEPENDENCY NOTES
 =========================
 Used in this file:
-  - ./assets/banner.svg   -> self-owned, lives in the repo. Will never break.
+  - ./assets/ai-engineer-banner-animated.gif   -> self-owned, lives in the repo. Will never break.
   - skillicons.dev        -> confirmed working in your tests
   - img.shields.io        -> large, stable infrastructure used by millions of repos
 
